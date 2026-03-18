@@ -12,10 +12,15 @@ public class Constructor1Lesson {
 class Chicken{
     int numEggs = 0;
     String name;
+    {
+        numEggs = 100;
+    }
     public Chicken(){
         name = "Duke";
     }
+    
 }
+
 class Swan{
     int numberEggs;
     public static void main(String[] args) {
@@ -33,5 +38,8 @@ class Name{
         System.out.println(name1.full);
         name1.first ="Anton";
         name1.last = "Racal";
+        Name name2 = new Name();
+        name2.full = name1.first+name1.last;
+        System.out.println(name2.full);
     }
 }
