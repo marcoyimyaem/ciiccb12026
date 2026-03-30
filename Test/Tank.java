@@ -4,7 +4,9 @@ public class Tank {
         System.out.println(water);
     }
     public static void main(String[] args) {
-        
+        int Integer = 21;
+        int x;
+        char c;
         
     }
 
