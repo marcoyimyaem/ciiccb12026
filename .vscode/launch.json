@@ -6,12 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringLesson",
+            "request": "launch",
+            "mainClass": "chapter3.StringLesson",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
             "name": "Launch with Arguments Prompt",
             "request": "launch",
             "mainClass": "",
             "args": "${command:SpecifyProgramArgs}"
         },
-
         {
             "type": "java",
             "name": "Current File",

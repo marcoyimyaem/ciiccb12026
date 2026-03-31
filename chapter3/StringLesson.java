@@ -24,7 +24,10 @@ public class StringLesson {
         System.out.println(trimSample.trim());
         
         System.out.println(ProperCase("TOWER"));
-        System.out.println(args[0]);
         
-    }
+        StringBuilder sb = new StringBuilder("marco");
+        StringBuilder sb2 = sb.append("Yim");
+        System.out.println(sb2.append("the"));
+        System.out.println(sb);
+       }
 }
