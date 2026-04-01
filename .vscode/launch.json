@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayLesson",
+            "request": "launch",
+            "mainClass": "chapter3.ArrayLesson",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
             "name": "StringLesson",
             "request": "launch",
             "mainClass": "chapter3.StringLesson",
