@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReturnType",
+            "request": "launch",
+            "mainClass": "chapter4.ReturnType",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
             "name": "DatesAndTimeLesson",
             "request": "launch",
             "mainClass": "chapter3.DatesAndTimeLesson",
