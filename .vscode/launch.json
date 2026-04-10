@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UserTest",
+            "request": "launch",
+            "mainClass": "Test.UserTest",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
             "name": "VarArgsLesson",
             "request": "launch",
             "mainClass": "chapter4.VarArgsLesson",

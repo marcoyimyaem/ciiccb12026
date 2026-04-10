@@ -1,4 +1,4 @@
-
+package Test;
 // import chapter1.Toy;
 
 public class UserTest {
