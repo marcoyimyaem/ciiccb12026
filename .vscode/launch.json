@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConstructorLesson",
+            "request": "launch",
+            "mainClass": "chapter4.ConstructorLesson",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
+            "name": "InitializationOrderSimple",
+            "request": "launch",
+            "mainClass": "chapter4.InitializationOrderSimple",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
+            "name": "Glider2",
+            "request": "launch",
+            "mainClass": "chapter4.Glider2",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
             "name": "UserTest",
             "request": "launch",
             "mainClass": "Test.UserTest",
