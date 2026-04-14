@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GeeCash",
+            "request": "launch",
+            "mainClass": "Test.GeeCash",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
+            "name": "EncapsulationLesson",
+            "request": "launch",
+            "mainClass": "chapter4.EncapsulationLesson",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
             "name": "ConstructorLesson",
             "request": "launch",
             "mainClass": "chapter4.ConstructorLesson",
