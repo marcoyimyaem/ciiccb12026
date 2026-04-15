@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LambdaLesson",
+            "request": "launch",
+            "mainClass": "chapter4.LambdaLesson",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
             "name": "GeeCash",
             "request": "launch",
             "mainClass": "Test.GeeCash",
