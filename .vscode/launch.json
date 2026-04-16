@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MountainLion",
+            "request": "launch",
+            "mainClass": "chapter5.MountainLion",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
             "name": "LambdaLesson",
             "request": "launch",
             "mainClass": "chapter4.LambdaLesson",
