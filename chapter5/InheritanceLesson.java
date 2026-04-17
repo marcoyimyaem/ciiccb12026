@@ -97,7 +97,7 @@ abstract class Hayop{
     public abstract String getName();
     abstract int getAge();
     abstract void setAge(int age);
-    abstract List<Double> CanineList(String n);
+    
 }
 abstract class Mammal extends Hayop{
     
@@ -121,11 +121,41 @@ class Dog extends Mammal{
     // List<Object> CanineList(String n) {
     //     return null;
     // }
-    @Override
-    List<Double> CanineList(String n) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'CanineList'");
-    }
+    
     
 
+}
+abstract interface CanBurrow{
+    public static final int MINIMUM_DEPTH = 2;
+    public abstract int getMaximumDepth();
+}
+interface CanBurrow2 extends CanBurrow{
+    int MINIMUM_DEPTH2 = 2;
+    int getMaximumDepth2();
+    default int getMinDepth(){
+        return 1;
+    }
+    static boolean isInWater(){
+        return false;
+    }
+
+}
+class FieldMouse extends Hayop implements CanBurrow,CanBurrow2{
+    public int getMaximumDepth(){
+        return MINIMUM_DEPTH -1;
+    }
+    public int getMaximumDepth2(){
+        return MINIMUM_DEPTH;
+    }
+    @Override
+    public String getName() {
+        return name;}
+    @Override
+    int getAge() {
+        return age;
+        }
+    @Override
+    void setAge(int age) {
+        }
+    
 }

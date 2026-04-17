@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Civic",
+            "request": "launch",
+            "mainClass": "Test.Civic",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
+            "name": "Wolf",
+            "request": "launch",
+            "mainClass": "chapter5.Wolf",
+            "projectName": "ciiccb12026_16968c92"
+        },
+        {
+            "type": "java",
             "name": "MountainLion",
             "request": "launch",
             "mainClass": "chapter5.MountainLion",
