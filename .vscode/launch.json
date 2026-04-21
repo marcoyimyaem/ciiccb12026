@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WindowBuilder",
+            "request": "launch",
+            "mainClass": "WindowBuilder",
+            "projectName": "ciiccb12026_7bbeb205"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionLesson3",
+            "request": "launch",
+            "mainClass": "chapter6.ExceptionLesson3",
+            "projectName": "ciiccb12026_7bbeb205"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionLesson2",
+            "request": "launch",
+            "mainClass": "chapter6.ExceptionLesson2",
+            "projectName": "ciiccb12026_7bbeb205"
+        },
+        {
+            "type": "java",
+            "name": "PolyMorrphismLesson",
+            "request": "launch",
+            "mainClass": "chapter5.PolyMorrphismLesson",
+            "projectName": "ciiccb12026_7bbeb205"
+        },
+        {
+            "type": "java",
             "name": "PolyMorrphismLesson",
             "request": "launch",
             "mainClass": "chapter5.PolyMorrphismLesson",
